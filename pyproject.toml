@@ -1,0 +1,8 @@
+# pyproject.toml
+[project]
+name = "sql-schema-generator"
+version = "0.1.0"
+dependencies = ["pandas", "typer", "rich"]
+
+[project.scripts]
+schemagen = "schema_generator.cli:app"
